@@ -1,0 +1,40 @@
+/* Centering the content-sections component and adjusting spacing */
+.content-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Optional: Set a font-family for better appearance */
+    margin: 0 auto; /* Center horizontally */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure headings stay on the same line */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    gap: 10px; /* Reduced gap between headings */
+    cursor: pointer;
+    font-size: 0.9em; /* Adjusted font size */
+    font-weight: bold;
+}
+
+.header-item {
+    padding: 6px; /* Adjust padding */
+    border-radius: 5px;
+    color: #555555; /* Default font color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    cursor: pointer;
+}
+
+.header-item.active {
+    background-color: #f0f0f0;
+    color: black; /* Change font color to black for active section */
+}
+
+.content {
+    margin-top: 10px; /* Reduced margin between header and content */
+    font-size: 1em; /* Adjusted font size */
+    text-align: center; /* Center the content text */
+}

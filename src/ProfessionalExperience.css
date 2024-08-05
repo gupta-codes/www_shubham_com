@@ -1,0 +1,33 @@
+/* src/components/ProfessionalExperience.css */
+.professional-experience {
+    margin: 20px;
+    font-size: 12px;
+}
+
+.professional-experience h2 {
+    text-align: center;
+    color: #333;
+}
+
+.professional-experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.professional-experience li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.professional-experience h3,
+.professional-experience h4 {
+    margin: 0;
+    color: #555;
+}
+
+.professional-experience p {
+    margin: 5px 0;
+}

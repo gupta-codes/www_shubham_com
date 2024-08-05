@@ -1,0 +1,24 @@
+.awards {
+    margin: 20px;
+    font-size: 12px;
+}
+
+.awards h2 {
+    text-align: center;
+    color: #333;
+}
+
+.awards ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.awards li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #555;
+}

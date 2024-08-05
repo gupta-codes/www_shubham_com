@@ -1,0 +1,25 @@
+.languages {
+    margin: 20px;
+    font-size: 12px;
+}
+
+.languages h2 {
+    text-align: center;
+    color: #333;
+}
+
+.languages ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.languages li {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #555;
+}

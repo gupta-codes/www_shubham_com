@@ -1,0 +1,25 @@
+.interests-hobbies {
+    margin: 20px;
+    font-size: 12px;
+}
+
+.interests-hobbies h2 {
+    text-align: center;
+    color: #333;
+}
+
+.interests-hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.interests-hobbies li {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #555;
+}
