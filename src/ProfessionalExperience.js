@@ -9,7 +9,7 @@ const ProfessionalExperience = () => {
                 <li>
                     <h3>Tech Lead, HCL</h3>
                     <p><strong>March 2024 - Present</strong></p>
-                    <p>Seeking opportunities/projects in various domains.</p>
+                    <p>Analyzed and optimized complex data structures, developed ETL/ELT pipelines for GCP BigQuery using Spanner, Python, Dataflow, Dataproc, and Cloud Functions.</p>
                 </li>
                 <li>
                     <h3>Senior Data Engineer, LTIMindtree</h3>
